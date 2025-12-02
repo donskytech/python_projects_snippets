@@ -46,7 +46,7 @@ try:
     print("SMS Mode Set: ", response)
 
     # Replace with your phone number
-    phone_number = "+639082233631"
+    phone_number = "+639081234567"
     message = "Testing from DonskyTech from SIM800C USB to GSM Module"
     send_at_command(f'AT+CMGS="{phone_number}"')
     time.sleep(1)
