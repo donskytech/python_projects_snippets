@@ -16,6 +16,7 @@ eggs/
 .env/
 venv/
 env/
+*/.venv/
 
 # Editors
 .vscode/
